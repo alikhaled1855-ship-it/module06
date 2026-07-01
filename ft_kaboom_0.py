@@ -1,9 +1,8 @@
-from alchemy.grimoire.dark_spellbook import dark_spell_record
+from alchemy.grimoire.light_spellbook import light_spell_record
 
-print("=== Kaboom 1 ===")
-print("Access to alchemy/grimoire/dark_spellbook.py directly")
-print("Test import now - THIS WILL RAISE AN UNCAUGHT EXCEPTION")
+print("=== Kaboom 0 ===")
+print("Using grimoire module directly")
 print(
-    f"Testing record dark spell: "
-    f"{dark_spell_record('Dark Fantasy', 'bats and frogs')}"
+    f"Testing record light spell: "
+    f"{light_spell_record('Fantasy', 'Earth, wind and fire')}"
 )
